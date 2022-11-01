@@ -10,14 +10,29 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:ngswitchto.helloWorld"
+    "onCommand:ngswitchto.template",
+    "onCommand:ngswitchto.component",
+    "onCommand:ngswitchto.stylesheet",
+    "onCommand:ngswitchto.unittest"
   ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "ngswitchto.helloWorld",
-        "title": "Hello World"
+        "command": "ngswitchto.template",
+        "title": "Switch to Template"
+      },
+      {
+        "command": "ngswitchto.component",
+        "title": "Switch to Component"
+      },
+      {
+        "command": "ngswitchto.stylesheet",
+        "title": "Switch to stylesheet"
+      },
+      {
+        "command": "ngswitchto.unittest",
+        "title": "Switch to unit test"
       }
     ]
   },
