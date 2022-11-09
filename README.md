@@ -3,7 +3,7 @@
 
 ## Features
 
-Easily switch to other Angular file types. Each command can be mapped to a keystroke for easily switching between files.
+Easily switch to other Angular file types. Each command can be mapped to a keystroke for switching between file types in a specific folder.
 
 ## Extension Settings
 
